@@ -6,7 +6,7 @@
  */
 
 import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
-import HomeScreen from './screens/HomeScreen';
+import { HomeScreen } from '@dealer/shared';
 
 function App() {
   const isDarkMode = useColorScheme() === 'dark';

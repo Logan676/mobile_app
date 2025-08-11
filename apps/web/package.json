@@ -14,11 +14,9 @@
     "vitest:ui": "vitest --ui"
   },
   "dependencies": {
-    "clsx": "^2.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "@tanstack/react-query": "^5.51.11",
-    "@tanstack/react-query-devtools": "^5.51.11",
+    "react-native-web": "^0.19.9",
     "@dealer/shared": "0.1.0"
   },
   "devDependencies": {
