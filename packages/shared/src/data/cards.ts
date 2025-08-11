@@ -1,17 +1,11 @@
 import { ImageSourcePropType } from 'react-native';
+import { CardContent } from '../components/Card';
 
-export interface CardData {
-  id: number;
-  heading: string;
-  sub?: string;
-  body: string[];
-  img: ImageSourcePropType;
-  cta: string;
-}
+const placeholder: ImageSourcePropType = {
+  uri: 'https://via.placeholder.com/400x300.png?text=Banner',
+};
 
-const placeholder = { uri: 'https://via.placeholder.com/400x300.png?text=Banner' };
-
-export const cards: CardData[] = [
+export const cards: CardContent[] = [
   {
     id: 1,
     heading: 'Heading 1',

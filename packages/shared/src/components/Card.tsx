@@ -1,13 +1,22 @@
 import { View, Text, Image, StyleSheet } from 'react-native';
 import Button from './Button';
-import type { CardData } from '../data/cards';
+import { ImageSourcePropType } from 'react-native';
+
+export interface CardContent {
+  id: number;
+  heading: string;
+  sub?: string;
+  body: string[];
+  img: ImageSourcePropType;
+  cta: string;
+}
 
 export default function Card({
   data,
   isSelected,
   onPress,
 }: {
-  data: CardData;
+  data: CardContent;
   isSelected: boolean;
   onPress: () => void;
 }) {
