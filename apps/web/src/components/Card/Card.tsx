@@ -2,7 +2,7 @@ import type { CardDto } from '@/types';
 import { useUi } from '@/context/UiContext';
 import CardImage from './CardImage';
 import CardBody from './CardBody';
-import Button from '../Button';
+import { Button } from '@dealer/shared';
 import clsx from 'clsx';
 
 export default function Card({ data, className = '' }: { data: CardDto, className?: string }) {
@@ -25,7 +25,7 @@ export default function Card({ data, className = '' }: { data: CardDto, classNam
       <CardImage src={data.img} heading={data.heading} />
       <CardBody heading={data.heading} paragraphs={data.body} />
       <div className="px-4 pb-4 mt-auto">
-        <Button onClick={() => setSelectedId(data.id)} label={data.cta} />
+        <Button onPress={() => setSelectedId(data.id)} label={data.cta} />
       </div>
     </article>
   );

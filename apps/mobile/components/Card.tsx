@@ -1,5 +1,5 @@
 import { View, Text, Image, StyleSheet } from 'react-native';
-import Button from './Button';
+import { Button } from '@dealer/shared';
 import type { CardData } from '../data/cards';
 
 export default function Card({
