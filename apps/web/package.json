@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -18,7 +19,7 @@
     "react-dom": "^19.1.0",
     "@tanstack/react-query": "^5.51.11",
     "@tanstack/react-query-devtools": "^5.51.11",
-    "@dealer/shared": "workspace:*"
+    "@dealer/shared": "0.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",

@@ -2,6 +2,7 @@
   "name": "mobile",
   "version": "0.0.1",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
@@ -13,7 +14,7 @@
     "react": "19.1.0",
     "react-native": "0.80.2",
     "@react-native/new-app-screen": "0.80.2",
-     "@dealer/shared": "workspace:*"
+     "@dealer/shared": "0.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",

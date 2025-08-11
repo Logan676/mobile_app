@@ -158,6 +158,6 @@ MobileApp/
 ---
 
 ## Licensing
-If you plan to open source or distribute, add a `LICENSE` file in the repository root.
+Licensed under the MIT License. See `LICENSE` for details.
 
 
