@@ -15,7 +15,7 @@ A multi-app monorepo containing a React Native mobile app and a Vite + React web
 ---
 
 ## Prerequisites
-- Node.js >= 18, npm 10 (repo sets `packageManager: npm@10`)
+- Node.js >= 18, npm 11 (repo sets `packageManager: npm@11.4.2`)
 - macOS for iOS development: Xcode + Command Line Tools
 - Android development: Android Studio + SDKs, device/emulator
 - Ruby for CocoaPods (mobile iOS)
